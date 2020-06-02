@@ -1,10 +1,25 @@
-# Welcome to your CDK C# project!
+# AWS CDK Project for Creating an AWS ApigatewayV2 with a JWT authorizer for a lambda function.
 
-This is a blank project for C# development with CDK.
+AWS docs https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-It uses the [.NET Core CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute your project.
+Article explaining JWT Auhtorizer and its setup via the AWS Console.
+https://auth0.com/blog/securing-aws-http-apis-with-jwt-authorizers/
+
+## Project structure:
+The cdk app is under /src
+the lambda function that will be deployed is under /lambdas
+
+## Steps:
+Add the AWS.CDK.APIGatewayv2 package
+```BASH
+dotnet add package Amazon.CDK.AWS.APIGatewayv2
+```
+
+Add the AWS.CDK.Lambda package
+```BASH
+dotnet add package Amazon.CDK.AWS.Lambda
+```
 
 ## Useful commands
 
