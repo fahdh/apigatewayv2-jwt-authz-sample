@@ -1,0 +1,7 @@
+{
+  "app": "dotnet run -p src/Apigatewayv2JwtAuthzSample/Apigatewayv2JwtAuthzSample.csproj",
+  "context": {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true"
+  }
+}
