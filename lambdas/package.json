@@ -1,0 +1,15 @@
+{
+  "name": "fh-secure-lambda",
+  "version": "1.0.0",
+  "description": "Sample secure lambda function using a JWT authorizer on API Gateway.",
+  "main": "my-secure-lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fahd Hamidani",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-decode": "^3.0.0"
+  }
+}
